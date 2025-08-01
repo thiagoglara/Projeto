@@ -1,9 +1,6 @@
-nome = 'Thiago Lua'
-altura = 1.73
-peso = 90
-imc = peso / (altura ** 2)
-
-# f-strings
-linha1 = f'{nome} tem {altura:.2f} de altura, pesa {peso} kg e seu IMC é {imc:.1f}'
-
-print(linha1)
+a = "A"
+b = "Bwe"
+c = 1.1
+string = "a={0} c={2:.2f} b={1}"
+formato = string.format(a, b, c)
+print(formato)
